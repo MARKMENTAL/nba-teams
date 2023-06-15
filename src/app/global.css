@@ -1,0 +1,63 @@
+.linkbtn{
+    margin:10px;
+    background:#0b6bb9;
+    color:white;
+    border-radius:10px;
+    padding:10px;
+  }
+
+a{
+  color:rgb(17, 105, 213);
+}
+
+  @media only screen and (max-width: 767px) {
+    .docbtn {
+      display: block;
+    }
+    .cardft{
+      display: grid !important;
+    }
+  }
+
+.logo{
+  width: 120px;
+}
+.vite{
+  width: 80px;
+  margin:10px;
+}
+ul{
+  list-style:lower-roman
+}
+
+.body-container {
+  margin: 50px;
+  text-align: left;
+}
+
+body {
+  background-color: black;
+  color:white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+  margin: 20px;
+  padding: 20px;
+}
+
+.linktxt{
+  color:#c30f2e;
+}
+
+.card{
+  margin:40px;
+}
+
+.cardft{
+  margin-top: 60px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+}

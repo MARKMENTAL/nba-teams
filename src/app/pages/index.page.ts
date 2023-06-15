@@ -1,49 +1,23 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-home',
   standalone: true,
+  // styleUrls: ['../global.css'],
+  // kept for demonstration of importing styles
+  imports:[CommonModule],
   template: `
     <div>
-      <a href="https://analogjs.org/" target="_blank">
-        <img alt="Analog Logo" class="logo analog" src="/analog.svg" />
-      </a>
+      <h2>Welcome to the NBA Portal</h2>
+      <p>The National Basketball Association (NBA) is a men's professional basketball league in North America. It is composed of 30 teams and is one of the four major professional sports leagues in the United States and Canada.</p>
+      <p>The NBA was founded in 1946 as the Basketball Association of America (BAA). It merged with the National Basketball League (NBL) in 1949 to become the NBA, which is now the premier men's professional basketball league in the world.</p>
+      <div class="cardft">
+        <a class="linkbtn" href="/lakers">Los Angeles Lakers</a>
+        <a class="linkbtn" href="/warriors">Golden State Warriors</a>
+        <a class="linkbtn" href="/nuggets">Denver Nuggets</a>
+      </div>
     </div>
-
-    <h2>Analog</h2>
-
-    <h3>The fullstack meta-framework for Angular!</h3>
-
-    <div class="card">
-      <button type="button" (click)="increment()">Count {{ count }}</button>
-    </div>
-
-    <p class="read-the-docs">
-      For guides on how to customize this project, visit the
-      <a href="https://analogjs.org" target="_blank">Analog documentation</a>
-    </p>
-  `,
-  styles: [
-    `
-      .logo {
-        will-change: filter;
-      }
-      .logo:hover {
-        filter: drop-shadow(0 0 2em #646cffaa);
-      }
-      .logo.angular:hover {
-        filter: drop-shadow(0 0 2em #42b883aa);
-      }
-      .read-the-docs {
-        color: #888;
-      }
-    `,
-  ],
+  `
 })
-export default class HomeComponent {
-  count = 0;
-
-  increment() {
-    this.count++;
-  }
-}
+export default class HomeComponent {}

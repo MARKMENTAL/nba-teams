@@ -1,9 +1,9 @@
 # Analog App
 
-This simple project showcases  NBA team components created using Analog.js, a full stack meta-framework for Angular.
+This simple project showcases NBA team components created using Analog.js, a full stack meta-framework for Angular.
 
 Analog.js is a powerful metaframework that enables developers to build applications using Angular, a popular JavaScript framework. It provides additional features and abstractions to enhance the development process and improve productivity. One of the key features of Analog.js is its support for file-based routing with .page.ts routes.
-
+# File Based Routing
 In traditional Angular applications, routing is typically configured using a dedicated routing module where developers define the routes and their corresponding components. However, Analog.js takes a different approach by allowing developers to define routes using individual files with a .page.ts extension.
 
 With .page.ts routes, developers can create separate files for each route in their application. Each file represents a specific page or view and contains the necessary code and configuration for that particular route. This approach offers several advantages.
@@ -14,8 +14,17 @@ Secondly, this approach promotes modularity and reusability. Each .page.ts file 
 
 Additionally, the use of .page.ts routes in Analog.js enables better collaboration among team members. Since each route is defined in its own file, multiple developers can work simultaneously on different routes without conflicts. It also facilitates code reviews and reduces the likelihood of merge conflicts when changes are made to the routing configuration.
 
-Overall, Analog.js with its support for file-based routing using .page.ts routes offers developers a more flexible and organized approach to managing routes in Angular applications. By leveraging this metaframework, developers can enhance their productivity and build robust applications with ease, as demonstrated in the simple project showcasing NBA team components.
+# Vite
+Vite is a build tool specifically designed for modern web development workflows. It focuses on optimizing the development experience by leveraging native ES modules in the browser during development. This approach eliminates the need for bundling the entire application during the development process, resulting in significantly faster build times.
 
+By utilizing Vite, Analog.js takes advantage of this optimized development experience. When working on an Analog.js project, developers can benefit from near-instantaneous hot module replacement (HMR) for faster code changes and updates. This means that as developers make edits to their code, the changes are immediately reflected in the browser without the need for a full page reload.
+
+Furthermore, Vite's development server provides features like automatic reloading, fast rebuilds, and optimized caching to ensure a smooth and efficient development workflow. It leverages the browser's native ES module loading capabilities, allowing for quick module resolution and efficient bundling during the build process.
+
+Compared to webpack, which is a widely used and powerful bundler, Vite offers a more streamlined development experience specifically tailored for modern JavaScript frameworks like Angular. It provides faster build times, improved HMR, and overall better performance during development.
+
+By incorporating Vite into its tooling, Analog.js enhances the development process by leveraging the benefits of Vite's optimized build system, resulting in a faster and more efficient experience for developers working on Angular applications.
+#
 This project was generated with [Analog](https://analogjs.org), the fullstack meta-framework for Angular.
 
 ## Setup

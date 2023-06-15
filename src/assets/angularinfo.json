@@ -1,5 +1,0 @@
-{
-    "about": "Angular is a popular open-source web application framework developed by Google. It is written in TypeScript and is known for its powerful, feature-rich, and fully extensible architecture. Angular is designed to make it easy to build large-scale and complex applications, with features like two-way data binding, dependency injection, modular architecture, and a rich set of pre-built components and directives.",
-    "story": "Angular was first announced by Google in 2010 as AngularJS, an innovative framework that introduced features like two-way data binding and dependency injection to JavaScript development. In 2016, AngularJS was completely rewritten and rebranded as Angular 2 (or simply Angular). The new version brought many improvements, including better performance, simpler APIs, and full support for mobile development. Since then, Angular has continued to evolve, with new major versions released regularly, each bringing new features and improvements."
-  }
-  
